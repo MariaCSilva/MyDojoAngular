@@ -1,10 +1,14 @@
 interface Pessoa{
     nome: string;
-    idade?: number;
 }
 
-let pessoa: Pessoa;
-pessoa.nome =  "Majo";
+class Aluno implements Pessoa{
+    nome: string;
+    constructor(nome:string){
+        this.nome = nome;
+    }
+}
+
 
 interface Coordenadas{
     readonly x: number;

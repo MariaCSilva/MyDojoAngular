@@ -1,3 +1,3 @@
-let color: string = "black";
-let name: string = "Majo";
-let text: string = `Hi, my name is ${name} and i like ${color}`
+let mycolor: string = "black";
+let myname: string = "Majo";
+let text: string = `Hi, my name is ${myname} and i like ${mycolor}`;

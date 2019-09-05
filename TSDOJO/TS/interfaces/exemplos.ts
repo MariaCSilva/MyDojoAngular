@@ -1,9 +1,7 @@
 interface Pessoa{
     nome: string;
-    idade: number;
+    idade?: number;
 }
 
 let pessoa: Pessoa;
 pessoa.nome =  "Majo";
-//Erro de checagem de tipo
-//pessoa.idade = "Silva";

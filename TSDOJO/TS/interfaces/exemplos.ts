@@ -6,7 +6,9 @@ interface Aluno extends Pessoa{
     registro: number;
 }
 
-let aluno = <Aluno>{} // ou let aluno: Aluno;
+let aluno = <Aluno>{}; //ou let aluno: Aluno;
+aluno.nome = "José da Silva" ;
+aluno.registro = 25;
 
 interface Coordenadas{
     readonly x: number;

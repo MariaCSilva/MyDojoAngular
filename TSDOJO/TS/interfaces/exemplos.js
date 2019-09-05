@@ -1,5 +1,4 @@
-var pessoa;
-pessoa.nome = "Majo";
+var aluno = {}; // ou let aluno: Aluno;
 var ponto1 = { x: 10, y: 20 };
 var potencia;
 potencia = function (numero, potencia) {

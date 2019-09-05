@@ -2,13 +2,11 @@ interface Pessoa{
     nome: string;
 }
 
-class Aluno implements Pessoa{
-    nome: string;
-    constructor(nome:string){
-        this.nome = nome;
-    }
+interface Aluno extends Pessoa{
+    registro: number;
 }
 
+let aluno = <Aluno>{} // ou let aluno: Aluno;
 
 interface Coordenadas{
     readonly x: number;

@@ -21,3 +21,4 @@ class Funcionario extends Pessoa{
 let func = new Funcionario("Jose", "Vendas");
 console.log(func.apresentacao());
 //console.log(jose.nome);//error
+;

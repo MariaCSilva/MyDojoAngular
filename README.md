@@ -2,11 +2,15 @@
 * npm install –g typescript 
 * npm install -g @angular/cli
 ===================
-> comandos ng 
+> comandos ng ()
 * ng --version
 * ng new < nome-do-projeto> 
 ..* Angular routing? Y
 ..* Style sheet format? Scss
+* ng serve
+>> Criar novos Componentes
+* ng g c < nome-do-componente>
+
 ===================
 
 > Plugins Para Vs Code:

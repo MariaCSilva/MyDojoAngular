@@ -1,6 +1,6 @@
 <div>
     <div *ngFor="let numero of numeros">
-        <div *ngIf="numero%2==0;else impar">{{numero}} Par </div>
+        <div *ngIf="numero%2==0;else impar"> {{numero}} Par </div>
         <ng-template #impar>{{numero}} Impar</ng-template>
 
     </div>

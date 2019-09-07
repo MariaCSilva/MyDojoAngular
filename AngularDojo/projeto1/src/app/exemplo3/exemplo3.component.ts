@@ -15,4 +15,11 @@ export class Exemplo3Component implements OnInit {
   ngOnInit() {
   }
 
+  buttonClick($event) {
+    console.log($event);
+  }
+  fazAlgumaCoisa($event) {
+    alert('Nada.');
+  }
+
 }

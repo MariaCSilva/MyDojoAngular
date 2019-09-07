@@ -6,3 +6,9 @@
 <h2>Bind em um botão</h2>
 <button type="button" [disabled]="buttonStatus">Um botão Chibata</button>
 <button type="button" [disabled]="status2 == 'disabled'">Um botão Chibata</button>
+<div>
+    <button (click)="buttonClick($event)">Clique-me</button>
+    <div (mouseenter)="fazAlgumaCoisa($event)" style="margin: 20px; border: 1px solid;">
+        Passe o mouse pra ver o que acontece...
+    </div>
+</div>
